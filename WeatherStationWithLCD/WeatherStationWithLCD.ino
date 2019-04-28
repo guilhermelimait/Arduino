@@ -7,6 +7,7 @@
     http://solucoesms.com.br
 .LINKEDIN
     https://www.linkedin.com/in/guilhermelimait/
+    https://github.com/guilhermelimait/Arduino/tree/master/WeatherStationWithLCD  
 .DESCRIPTION ENGLISH VERSION
     Simple weather monitoring using DHT11 and Arduino Nano showing results on LCD 16X2 with I2C
 .DESCRIPTION PORTUGUESE VERSION
@@ -45,7 +46,6 @@ LiquidCrystal_I2C lcd(0x27,2,1,0,4,5,6,7,3, POSITIVE); //informação padrão pa
 void setup() {
   lcd.begin (16,2);                       //inicializacao e tamanho do lcd
   dht.begin();                            //inicializacao do dht
-  Serial.begin (9600);
 }
 
 void loop() {
@@ -59,6 +59,11 @@ void loop() {
   lcd.setCursor(0,1);                     //linha 2
   lcd.print ("Temp: ");
   lcd.print (Temp);
-  lcd.print ("\337C");                    //caractere ° (grau celcius)
-  delay (1000);
+  lcd.print (" \337C");                    //caractere ° (grau celcius)
+  delay (5000);
+  lcd.setCursor(0,0);
+  lcd.print ("github.com/     ");
+  lcd.setCursor(0,1);
+  lcd.print ("guilhermelima   ");
+  delay (2000);
 }
