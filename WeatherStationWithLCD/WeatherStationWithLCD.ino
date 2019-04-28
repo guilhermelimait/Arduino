@@ -56,6 +56,7 @@ void loop() {
   lcd.setCursor(0,0);                     //linha 1
   lcd.print ("Umid: ");
   lcd.print (Umid);
+  lcd.print (" %");                    //caractere ° (grau celcius)
   lcd.setCursor(0,1);                     //linha 2
   lcd.print ("Temp: ");
   lcd.print (Temp);
@@ -65,5 +66,5 @@ void loop() {
   lcd.print ("github.com/     ");
   lcd.setCursor(0,1);
   lcd.print ("guilhermelima   ");
-  delay (2000);
+  delay (3000);
 }
