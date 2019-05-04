@@ -13,9 +13,7 @@
 .DESCRIPTION PORTUGUESE VERSION
     As bibliotecas utilizadas aqui tem necessidades ou atividades diferentes para seu funcionamento, siga exatamente como informado:
     Abaixo o local para download das bibliotecas:
-    DHT: https://github.com/adafruit/DHT-sensor-library salvar a pasta nas libraries do arduino
     LCD COM I2C: https://bitbucket.org/fmalpartida/new-liquidcrystal/downloads/NewliquidCrystal_1.3.4.zip renomear a pasta para LiquidCrystalI2C e salvar nas libraries do Arduino
-    Informações sobre o Wire: https://www.arduino.cc/en/reference/wire
 .PIN MAPPING
     Arduino nano -> Presence Sensor (PIR DYP-ME003)
     pin d3  - Data (middle pin)
