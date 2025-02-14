@@ -56,8 +56,7 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 ## License
 
-[Specify the license under which your projects are distributed. Common licenses include MIT, GPL, and Apache 2.0. If you don't want to use a license, you can state "No License".]
-
+MIT
 
 ༼ つ ◕_◕ ༽つ
 I Want That!
